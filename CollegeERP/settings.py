@@ -34,8 +34,6 @@ AUTH_USER_MODEL = 'info.User'
 # Application definition
 
 INSTALLED_APPS = [
-    'admin_interface',
-    'colorfield',
     'info.apps.InfoConfig',
     'django.contrib.admin',
     'django.contrib.auth',
